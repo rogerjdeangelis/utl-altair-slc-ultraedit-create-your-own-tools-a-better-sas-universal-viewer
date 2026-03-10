@@ -1,21 +1,28 @@
-%let pgm=utl-altair-slc-ultraedit-create-your-own-tools-a-better-sas-universal-viewer;
-
 %stop_submission;
 
 Altair slc ultraedit create your own tools a better sas universal viewer
 
 This post shows how to get a SAS data set into Excel, using just hotkeys, so you can
-use everything Excel offers to explore and QC that SAS data.
+use everything Excel offers to explore and QC that SAS dataset.
 This is a replacement for the sas universal viewer.
+
+Before you can use this you need to setup the slc for ultraedit.
+see
+https://github.com/rogerjdeangelis/utl-altair-slc-configuration-and-ultraedit-setup
+
+Key steps
+  1 create a slc config file
+  2 create an autoexec file (must have an additional permanent work library assigned in your autoexec
 
 Too long to post on a list.
 see github
 https://github.com/rogerjdeangelis/utl-altair-slc-ultraedit-create-your-own-tools-a-better-sas-universal-viewer
 
-
 USAGE
 
    /*--- sample program in ultraedit editor ---*/
+   /*--- I like to assign workx in my autoexec so I can example datasets created by previous submissions ---*/
+
    data workx.zipcode;
      set sashelp.zipcode;
    run;
@@ -26,6 +33,12 @@ USAGE
 
    excel will appear with sas dataset work.zipcode
 
+   Whats happening:
+     When you highlight workx.zipcode and hit cntl-c, the text 'workx.zipcode is store in the windows clipboard.
+    When you then hic cntl-shift-1
+      1. slc reads the clipboard
+      2. an slc program reads the dataset and displays the dataset in excel
+         This opens up excel tools to analyze the slc data set
 CONTENTS
 
   1 ultraed1t version
@@ -264,3 +277,4 @@ FILE HOME EDIT FORMAT VIEW CODING PROJECT LAYOUT WINDOW ADVANCED
  \___|_| |_|\__,_|
 
 */
+

@@ -2,7 +2,7 @@
 
 Altair slc ultraedit create your own tools a better sas universal viewer
 
-his post shows how to get a SAS data set into Excel, using just hotkeys, so you can
+This post shows how to get a SAS data set into Excel, using just hotkeys, so you can
 use everything Excel offers to explore and QC that SAS dataset.
 This is a replacement for the sas universal viewer.
 Note: This allows you to use the much more powerfull slc language to build your tools instead of javascript..

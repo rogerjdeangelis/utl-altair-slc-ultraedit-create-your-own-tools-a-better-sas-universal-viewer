@@ -8,7 +8,6 @@ This is a replacement for the sas universal viewer.
 Note: This allows you to use the much more powerfull slc language to build your tools instead of javascript..
 Any text or commands that you can highlight in the editor, log or output can be access by the slc.
 
-
 Before you can use this you need to setup the slc for ultraedit.
 see
 https://github.com/rogerjdeangelis/utl-altair-slc-configuration-and-ultraedit-setup

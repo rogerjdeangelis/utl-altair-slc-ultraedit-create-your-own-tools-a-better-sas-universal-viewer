@@ -1,0 +1,20 @@
+                                workx.zipcode — the dataset the viewer hotkey would open                                
+
+  Obs        City  StateCode    Zip      Y        X  State
+    1  Greenwich   CT          6830  41.03   -73.63      9
+    2  NewYork     NY         10001  40.75   -73.99     36
+    3  Cambridge   MA          2138  42.38   -71.12     25
+    4  Chicago     IL         60601  41.88   -87.62     17
+    5  LosAngeles  CA         90001  33.97  -118.24      6
+
+... 3 more observations (showing 5 of 8)
+
+                                workx.zipcode — the dataset the viewer hotkey would open                                
+
+                                                  The MEANS Procedure
+
+ Variable        N          Minimum         Maximum            Mean
+ ------------------------------------------------------------------
+ Y               8       25.7800000      47.6100000      38.2737500
+ X               8     -122.3300000     -71.1200000     -90.4912500
+ ------------------------------------------------------------------

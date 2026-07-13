@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_workx_zipcode_viewer",
+  "source_file": "utl-altair-slc-ultraedit-create-your-own-tools-a-better-sas-universal-viewer.sas",
+  "source_blob_sha": "510dff6629b35096004fc7f7abc809eabb685224",
+  "source_commit": "e2738cf5a0e1245025403b54b9446272b21d8089",
+  "notes": "Repo's documented USAGE sample (data workx.zipcode; set sashelp.zipcode; run;) that invokes the xls viewer hotkey. sashelp.zipcode is not on Jenner, so a same-shape zipcode dataset (ZIP/Y/X/CITY/STATE/STATECODE) is built inline in autoexec; workx (autoexec-assigned permanent lib upstream) mapped to WORK. Script copies the dataset then inspects it via PROC PRINT + PROC MEANS the way the viewer would let you QC it in Excel."
+}

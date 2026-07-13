@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-13T09:02:22Z",
+  "_captured_run_id": "r_48ccd0e1c92c4498a75405e6270db45c",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 8 rows from DATALINES.",
+    "NOTE: Wrote workx_zipcode (8 rows, 6 columns).",
+    "NOTE: PROC PRINT completed: 5 observations printed, 6 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

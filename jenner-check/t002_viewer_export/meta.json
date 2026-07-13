@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_viewer_export",
+  "source_file": "utl-altair-slc-ultraedit-create-your-own-tools-a-better-sas-universal-viewer.sas",
+  "source_blob_sha": "510dff6629b35096004fc7f7abc809eabb685224",
+  "source_commit": "e2738cf5a0e1245025403b54b9446272b21d8089",
+  "notes": "Portable core of the repo's xls viewer program: the file-existence guard (filename/fexist/fdelete data _null_) verbatim, then the highlighted-dataset copy `set &argx(obs=1000)`. Clipboard device (filename clp clipbrd), Excel libname and the x-command launcher are Windows/PC-only; &argx (clipboard-fed upstream) is set to a small WORK dataset and the Excel .xlsx target swapped for a CSV via PROC EXPORT. Exercises the guard + macro-var-driven dataset materialization exactly as upstream."
+}

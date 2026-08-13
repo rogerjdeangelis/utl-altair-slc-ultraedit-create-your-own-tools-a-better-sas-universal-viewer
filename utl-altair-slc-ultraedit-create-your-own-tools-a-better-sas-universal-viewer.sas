@@ -23,7 +23,7 @@ https://github.com/rogerjdeangelis/utl-altair-slc-ultraedit-create-your-own-tool
 USAGE
 
    /*--- sample program in ultraedit editor ---*/
-   /*--- I like to assign workx in my autoexec so I can example datasets created by previous submissions ---*/
+   /*--- I like to assign workx in my autoexec so I can exam datasets created by previous submissions ---*/
 
    data workx.zipcode;
      set sashelp.zipcode;
